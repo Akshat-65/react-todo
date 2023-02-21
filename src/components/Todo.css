@@ -1,0 +1,78 @@
+
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 13rem;
+    height: 13rem;
+    margin: 10px;
+    border: 1px solid #6b706d;
+    border-radius: 11px;
+    box-shadow: 0px 0px 2px 2px #9c9797;
+    overflow-wrap: break-word;
+    transition: all 0.4s ease ;
+    background-color: #fce7f3;
+}
+
+.todo-container:hover{
+    transform: scale(1.05);
+}
+
+.task{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    padding: 5px;
+    text-align: center;
+    height: 80%;
+    color: #3b0721;
+    font-style: oblique;
+}
+
+
+.update-delete{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    align-items: center;
+    height: auto;
+    cursor: pointer;
+    color: #5b3434;
+}
+
+.update-delete button{
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid #9f1c5d;
+    border-radius: 11px;
+    color: #3b0721;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.04rem;
+    line-height: 1;
+    padding: 0.4rem 0.4rem 0.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.update-delete button:hover{
+    background: #3b0721;
+    color: white;
+    animation: rotate 0.3s ease-in-out 1 alternate;
+}
+
+@keyframes rotate{
+    0%{
+        transform:rotate(3deg);
+    }
+    25%{
+        transform:rotate(-3deg);
+    }
+    50%{
+        transform:rotate(3deg);
+    }
+    100%{
+        transform:rotate(-3deg);
+    }
+}
