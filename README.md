@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Description: A multipage responsive todo-list app in which after signing up you can add tasks to your list simply by clicking on the create button. You can also Edit and delete your tasks. You can navigate between different pages more efficiently as react router has been used.
+Technology: React, Firebase, Tailwind css.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
